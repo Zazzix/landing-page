@@ -93,5 +93,55 @@ ul  {
     
 }
 
+.placeholder2   {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+
+
+.section1   {
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.info   {
+    justify-content: center;
+    max-width: 150px;
+
+}
+
+.title  {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.text   {
+    font-weight: 300;
+}
+
+.section2   {
+    
+    border: 1px solid red;
+}
+
+.section3   {
+    
+    border: 1px solid red;
+}
 
 
