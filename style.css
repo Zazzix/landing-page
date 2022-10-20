@@ -212,3 +212,15 @@ blockquote  {
     
 }
 
+.footer {
+    display: flex;
+    height: 70px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text    {
+    color: #e5e7eb;
+}
+
