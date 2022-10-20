@@ -100,7 +100,10 @@ ul  {
     border-radius: 12px;
 }
 
-
+.main-section   {
+    display: flex;
+    flex-direction: column;
+}
 
 .section1   {
     display: flex;
@@ -135,8 +138,31 @@ ul  {
 }
 
 .section2   {
-    
     border: 1px solid red;
+    display: flex;
+    height: 300px;
+    padding: 50px;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+blockquote  {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: end;
+    margin-top: 10px;
 }
 
 .section3   {
